@@ -23,21 +23,22 @@ void game::play()
 {
 	init();
 	//pêtla automatyczna
-	/*while (true)
+	while (true)
 	{
 		draw_tab();
 		analyze();
 		Sleep(800);
-	}*/
-
-	char sign ;
-	sign = getchar();
-	while (sign == '\n')
-	{
-		draw_tab();
-		analyze();
-		sign = getchar();
 	}
+
+	//krok z enterem
+	//char sign ;
+	//sign = getchar();
+	//while (sign == '\n')
+	//{
+	//	draw_tab();
+	//	analyze();
+	//	sign = getchar();
+	//}
 }
 
 void game::view()

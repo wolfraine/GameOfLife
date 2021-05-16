@@ -12,9 +12,9 @@ protected:
 	// w i k do poprawy kompilacja od wersji 2011
 
 	//liczba kolumn
-	int height = 20;  
+	int height = 22;  
 	//liczba wierszy
-	int width = 20;  
+	int width = 22;  
 	//tablica glowna
 	cell** main_tab; 
 	//tablica pomocnicza
