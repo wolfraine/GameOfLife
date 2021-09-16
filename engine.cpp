@@ -1,11 +1,6 @@
 #include "engine.h"
 #include <iostream>
-/*
-13.05.2021 - problemy z funkcja analiza lub s¹siedzi
-aktualizacja - s¹siedzi siê tworz¹, problem nie znikaj¹ problem z kolejn¹ funckja?
-13.05.2021 - problem rozwi¹zany b³¹d przy sprawdzaniu s¹siadów, liczy³em 9 pionów zamiast 8, pozycja x,y nie jest brana pod uwage przy liczeniu s¹siadów
 
-*/
 int engine::check_neighbors(int height, int width)
 {
 	int neighbor = 0;
